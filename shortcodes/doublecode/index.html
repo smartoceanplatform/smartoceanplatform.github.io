@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html><head>
-	<meta name="generator" content="Hugo 0.82.1" />
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <meta name="description" content="Ace is a theme for Hugo, a fast static website generator written in Go, that allows you to easily write well organized and clean documentation for your projects.">
-    
-    <link rel="alternate" type="application/rss+xml" href="https://smartoceanplatform.github.io/index.xml" title="SmartOcean Data Platform" />
-    <link rel="alternate" type="application/json" href="https://smartoceanplatform.github.io/index.json" title="SmartOcean Data Platform" />
-    <link rel="canonical" href="https://smartoceanplatform.github.io/">
+    <link rel="canonical" href="https://smartoceanplatform.github.io/shortcodes/doublecode/">
 
     <title>
         
-        SmartOcean Platform Documentation | SmartOcean Data Platform
+        Doublecode | SmartOcean Data Platform
         
     </title>
 
@@ -64,9 +59,6 @@
               </ul>
             </div>
     </div>
-    <div class="feed-icons">
-            <a href="https://smartoceanplatform.github.io/index.xml"><img src="/img/feed-icon.svg" alt="RSS feed" /></a>
-        </div>
     </nav>
 <div class="container-fluid">
             <div class="row">
@@ -116,7 +108,7 @@
           <a class="nav-link p-0" href="/configuration/"><h6>Configuration</h6></a>
         
     </li>
-    <li data-nav-id="/shortcodes/" class="nav-item my-1 haschildren
+    <li data-nav-id="/shortcodes/" class="nav-item my-1 parent haschildren
         ">
         
         
@@ -163,7 +155,7 @@
                   </a>
                 
         </li>
-        <li data-nav-id="/shortcodes/doublecode/" class="nav-item my-1">
+        <li data-nav-id="/shortcodes/doublecode/" class="nav-item my-1 active">
                 
                 
                   <a href="/shortcodes/doublecode/" class="nav-link p-0">
@@ -206,161 +198,144 @@
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
 	<nav id="TableOfContents">
   <ul>
-    <li><a href="#features">Features</a></li>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li></li>
+        <li><a href="#parameters">Parameters</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
                 
-	
 
-	<h1>SmartOcean Platform Documentation</h1>
-
-	<p class="lead">
-    Ace is a theme for <a href="https://gohugo.io" target="_blank">Hugo</a>, a fast static website generator written in Go, that allows you to easily write well organized and clean documentation for your projects. It&rsquo;s as easy as writing your content in Markdown, running Hugo to generate static HTML, CSS and Javascript files and deploying those to your web server.
-</p>
-
-<h2 id="features">Features</h2>
-<div class="row py-3 mb-5">
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-tachometer-alt fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					Fast.
-				</h5>
-				<p class="card-text text-muted">
-					Static files generated in less than a second. And served to your visitors just as fast.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-paint-brush fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					MinimalisticX.
-				</h5>
-				<p class="card-text text-muted">
-					A clean look to keep your user's attention to the content that matters: your documentation.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-project-diagram fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					For every project.
-				</h5>
-				<p class="card-text text-muted">
-					Hugo does not require Java, Python or Ruby and is available as a simple binary or through NPM and other package managers.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-cogs fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					Automatic.
-				</h5>
-				<p class="card-text text-muted">
-					Folders and files are automatically added in the menu depending on your file and folder structure.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-search fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					Full search.
-				</h5>
-				<p class="card-text text-muted">
-					Easily find the content you look for through the search function.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-code fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					Code highlighting.
-				</h5>
-				<p class="card-text text-muted">
-					Code highlighting. Include code samples with a copy button. If it’s HTML, you can also render the code.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-file-code fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					Useful shortcodes.
-				</h5>
-				<p class="card-text text-muted">
-					Code, buttons, alerts, leads, collapse, panels, images, videos and more.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fas fa-mobile-alt fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					Built with Bootstrap.
-				</h5>
-				<p class="card-text text-muted">
-					Built with <a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a>. Fully responsive out of the box. Build and style page elements using Bootstrap.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4">
-		<div class="card flex-row border-0">
-			<div class="mt-3">
-				<span class="fab fa-font-awesome-flag fa-2x text-primary"></span>
-			</div>
-			<div class="card-body pl-2">
-				<h5 class="card-title">
-					Icons.
-				</h5>
-				<p class="card-text text-muted">
-					Packed with <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>. Empower your content with a shit ton of awesome icons.
-				</p>
-			</div>
-		</div>
-	</div>
+<div class="d-flex flex-column">
+    <h1 class="js-title">Doublecode</h1>
+    <div class="d-flex align-items-center">
+        
+    </div>
 </div>
 
-	
+<hr>
+
+
+<p>The <em>doublecode</em> shortcode works the same as the <a href="/shortcodes/code/">code</a> shortcode, but extends the functionality by also rendering the code in the page. This is useful for showing the code of HTML elements in your page.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="border border-light" style="border-width:3px!important;">
+
+    <div class="px-3 py-2">
+        
+<div class="mydiv bg-primary shadow text-white p-3 m-4 border-primary">
+	<p class="h4 title">Hi there</p>
+	<p class="lead mb-0">I'm inside a doublecode shortcode, that's why I look so fancy.</p>
+</div>
+      
+    </div>
+
+</div>
+ 
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_c0b81ce64b">
+            Copy
+        </button>
+    </div>
+    <div id="clipboard_c0b81ce64b">
+        <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+<span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;mydiv bg-primary shadow text-white p-3 m-4 border-primary&#34;</span><span style="color:#111">&gt;</span>
+	<span style="color:#111">&lt;</span><span style="color:#f92672">p</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;h4 title&#34;</span><span style="color:#111">&gt;</span>Hi there<span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+	<span style="color:#111">&lt;</span><span style="color:#f92672">p</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;lead mb-0&#34;</span><span style="color:#111">&gt;</span>I&#39;m inside a doublecode shortcode, that&#39;s why I look so fancy.<span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+<span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+
+</code></pre></div>
+    </div>
+</div>
+
+<h2 id="usage">Usage</h2>
+<p>Simply place the following shortcode on the page</p>
+<h4 id="code-in-the-shortcode">Code in the shortcode</h4>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_80cfc5b8f0">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_80cfc5b8f0">
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+{{<span style="color:#111">&lt;</span> <span style="color:#f92672">doublecode</span> <span style="color:#75af00">lang</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;LANG&#34;</span> <span style="color:#111">&gt;</span>}} [your code] {{<span style="color:#111">&lt;</span> <span style="color:#111">/</span><span style="color:#f92672">doublecode</span> <span style="color:#111">&gt;</span>}}
+
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<h4 id="code-from-a-file">Code from a file</h4>
+
+
+
+
+
+
+    
+    
+
+
+
+
+<div class="position-relative">
+    <div class="position-absolute" style="right:0;">
+        <button class="btn btn-light" data-clipboard-target="#clipboard_1956476b90">
+        Copy
+        </button>
+    </div>
+    <div id="clipboard_1956476b90">
+    <div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">
+{{<span style="color:#111">&lt;</span> <span style="color:#f92672">doublecode</span> <span style="color:#75af00">lang</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;LANG&#34;</span> <span style="color:#75af00">file</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;code/mycode.html&#34;</span> <span style="color:#111">&gt;</span>}}
+
+</code></pre></div>
+    </div>
+</div>
+
+
+
+
+<h3 id="parameters">Parameters</h3>
+<h4 id="lang"><em>lang</em></h4>
+<p>The lang parameter defines the language to be used for code highlighting. You can find a complete list of supported languages <a href="https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages" target="_blank">here</a>.</p>
+<p>Example: <code>lang=&ldquo;html&rdquo;</code></p>
+<h4 id="file"><em>file</em></h4>
+<p>The file parameter allows you to define an external file that contains your code to be displayed. This is done by giving a path to that file, starting from the root directory of your site.
+For example, a HTML file named <em>&lsquo;mycode.html&rsquo;</em> you wish to link that is in the <em>docs/code/</em> directory can be defined as follows: <code>file=&ldquo;code/mycode.html&rdquo;</code>.</p>
+
+
+    
 
 
                     
@@ -369,7 +344,8 @@
 
     <h4 class="text-white text-center">Read more</h4>
 
-    <div class="d-flex justify-content-center"><a class="p-1 ml-3 d-inline-block text-white text-right" href="/getting-started/" title="Getting started">Getting started<i class="fas fa-chevron-right p-1"></i></a>
+    <div class="d-flex justify-content-center"><a class="p-1 mr-3 d-inline-block text-white" href="/shortcodes/collapse/" title="Collapse"><i class="fas fa-chevron-left p-1"></i>Collapse</a>
+        <a class="p-1 ml-3 d-inline-block text-white text-right" href="/shortcodes/lead/" title="Lead">Lead<i class="fas fa-chevron-right p-1"></i></a>
     </div>
 </div>
 
