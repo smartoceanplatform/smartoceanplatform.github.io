@@ -98,13 +98,6 @@
 	"content": ""
 },
 {
-	"uri": "https://smartoceanplatform.github.io/",
-	"title": "SmartOcean Platform Documentation",
-	"tags": null,
-	"description": "Ace is a theme for Hugo, a fast static website generator written in Go, that allows you to easily write well organized and clean documentation for your projects.",
-	"content": "Ace is a theme for Hugo, a fast static website generator written in Go, that allows you to easily write well organized and clean documentation for your projects. It\u0026rsquo;s as easy as writing your content in Markdown, running Hugo to generate static HTML, CSS and Javascript files and deploying those to your web server. Features   Fast.  Static files generated in less than a second. And served to your visitors just as fast.      MinimalisticX.  A clean look to keep your user's attention to the content that matters: your documentation.      For every project.  Hugo does not require Java, Python or Ruby and is available as a simple binary or through NPM and other package managers.      Automatic.  Folders and files are automatically added in the menu depending on your file and folder structure.      Full search.  Easily find the content you look for through the search function.      Code highlighting.  Code highlighting. Include code samples with a copy button. If it’s HTML, you can also render the code.      Useful shortcodes.  Code, buttons, alerts, leads, collapse, panels, images, videos and more.      Built with Bootstrap.  Built with Bootstrap 4. Fully responsive out of the box. Build and style page elements using Bootstrap.      Icons.  Packed with Font Awesome. Empower your content with a shit ton of awesome icons.     "
-},
-{
 	"uri": "https://smartoceanplatform.github.io/shortcodes/table/",
 	"title": "Table",
 	"tags": null,
@@ -117,4 +110,11 @@
 	"tags": null,
 	"description": "",
 	"content": ""
+},
+{
+	"uri": "https://smartoceanplatform.github.io/",
+	"title": "Welcome to the SmartOcean Data Service Platform",
+	"tags": null,
+	"description": "Ace is a theme for Hugo, a fast static website generator written in Go, that allows you to easily write well organized and clean documentation for your projects.",
+	"content": "Ace is a theme for Hugo, a fast static website generator written in Go, that allows you to easily write well organized and clean documentation for your projects. It\u0026rsquo;s as easy as writing your content in Markdown, running Hugo to generate static HTML, CSS and Javascript files and deploying those to your web server. Features   Fast.  Static files generated in less than a second. And served to your visitors just as fast.      MinimalisticX.  A clean look to keep your user's attention to the content that matters: your documentation.      For every project.  Hugo does not require Java, Python or Ruby and is available as a simple binary or through NPM and other package managers.      Automatic.  Folders and files are automatically added in the menu depending on your file and folder structure.      Full search.  Easily find the content you look for through the search function.      Code highlighting.  Code highlighting. Include code samples with a copy button. If it’s HTML, you can also render the code.      Useful shortcodes.  Code, buttons, alerts, leads, collapse, panels, images, videos and more.      Built with Bootstrap.  Built with Bootstrap 4. Fully responsive out of the box. Build and style page elements using Bootstrap.      Icons.  Packed with Font Awesome. Empower your content with a shit ton of awesome icons.     "
 }]
