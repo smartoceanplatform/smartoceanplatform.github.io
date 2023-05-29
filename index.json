@@ -32,14 +32,14 @@
 	"title": "Data consumers",
 	"tags": null,
 	"description": "",
-	"content": "Under construction "
+	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform.\nData streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT messaging service  For demonstration purposes, the data stream from the HVL Virtual Sensor Hub is being forwarded to a ThingSpeak\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataproviders/",
 	"title": "Data providers",
 	"tags": null,
 	"description": "",
-	"content": "Under construction "
+	"content": "Data providers are systems and applications that actively deliver data to the Smart Ocean platform.\nData is currently being provided to the platform from the Austevoll Research Station of the Institute of Marine Researchwww where SmartOcean Pilot Demonstrator 1 is deployed.\n\nThe pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from\n Aanderaa Data Instruments W-sense  Data is being provided to the platform via the ingestion messaging service.\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/interoperability/",
