@@ -148,6 +148,13 @@
           <a class="nav-link p-0" href="/monitoring/"><h6>Monitoring</h6></a>
         
     </li>
+    <li data-nav-id="/architecture/" class="nav-item my-1
+        ">
+        
+        
+          <a class="nav-link p-0" href="/architecture/"><h6>Architecture</h6></a>
+        
+    </li>
         </ul>
     </div>
 </nav>
@@ -172,7 +179,20 @@
 
 
 <p class="lead">
-    Under construction
+    <p>The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.</p>
+<p>The messaging service is comprised of two <a href="https://console.hivemq.cloud">HiveMQ MQTT</a> messaging clusters</p>
+<ul>
+<li>A Data Ingestion Messaging Service for delivering data to the platform</li>
+<li>A Core Messaging Messaging Service for data transformation, forwarding and consumption</li>
+</ul>
+<p>The data ingestion service requires authentication for data provisioning with the following topic structure</p>
+<pre><code>smartocean/&lt;domain&gt;/&lt;site&gt;/&lt;subsite&gt;/&lt;node&gt;
+</code></pre><p>Currently the following topics are in used corresponding to the data sources of SFI SmartOcean pilot demonstrator 1</p>
+<pre><code>smartocean/pilotdemo_0001/austevoll/north/seaguardII_0001
+smartocean/pilotdemo_0001/austevoll/south/seaguardII_0002
+smartocean/pilotdemo_0001/austevoll/wsense/node1
+smartocean/testing/virtualsensorhub
+</code></pre>
 </p>
 
 

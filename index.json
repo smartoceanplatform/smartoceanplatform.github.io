@@ -11,21 +11,21 @@
 	"title": "Data spaces",
 	"tags": null,
 	"description": "",
-	"content": "Under construction "
+	"content": "The data space service can both serve as a storage service for data providers, and as a proxy service for access to external data services.\nThe data space service relies on time series data bases accessible via a REST API\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/messaging/",
 	"title": "Messaging",
 	"tags": null,
 	"description": "",
-	"content": "Under construction "
+	"content": "The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.\nThe messaging service is comprised of two HiveMQ MQTT messaging clusters\n A Data Ingestion Messaging Service for delivering data to the platform A Core Messaging Messaging Service for data transformation, forwarding and consumption  The data ingestion service requires authentication for data provisioning with the following topic structure\nsmartocean/\u0026lt;domain\u0026gt;/\u0026lt;site\u0026gt;/\u0026lt;subsite\u0026gt;/\u0026lt;node\u0026gt; Currently the following topics are in used corresponding to the data sources of SFI SmartOcean pilot demonstrator 1\nsmartocean/pilotdemo_0001/austevoll/north/seaguardII_0001 smartocean/pilotdemo_0001/austevoll/south/seaguardII_0002 smartocean/pilotdemo_0001/austevoll/wsense/node1 smartocean/testing/virtualsensorhub  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/edgeintegration/",
 	"title": "Edge integration",
 	"tags": null,
 	"description": "",
-	"content": "Under construction "
+	"content": "The primary purpose of the edge integration service is to support the delivery of data from the underwater wireless sensor networks (UWSNs) into the data services of the platform. Hence, it facilitates the transfer of data from the information acquisition layer into the data and application service layer (see Figure~\\ref{fig:smartoceansystem}). The integration point is needed since the UWSNs operate with highly specialised communication protocols intended for acoustic communication and the data will have be provided to a gateway service via, e.g., 5G, WiFI, cabling or satellite communication. "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataconsumers/",
@@ -68,6 +68,13 @@
 	"tags": null,
 	"description": "",
 	"content": "It is crucial to monitor the status of data received from different observing systems deployed at sea because of all the challenges imposed by wireless data delivery from underwater wireless sensor networks.\nThis component is responsible for collecting the Smart Ocean Platform behavior metrics from the different services of the pipeline. This service is the foundation upon which observability of the platform where more context on how those collected metrics can be used. Observability allows the platform operators to assess the status of the platform\u0026rsquo;s services and data in runtime with regard to established goals.\n"
+},
+{
+	"uri": "https://smartoceanplatform.github.io/architecture/",
+	"title": "Architecture",
+	"tags": null,
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://smartoceanplatform.github.io/categories/",
