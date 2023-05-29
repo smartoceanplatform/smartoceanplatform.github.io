@@ -39,7 +39,7 @@
 	"title": "Data providers",
 	"tags": null,
 	"description": "",
-	"content": "Data providers are systems and applications that actively deliver data to the Smart Ocean platform.\nData is currently being provided to the platform from the Austevoll Research Station of the Institute of Marine Researchwww where SmartOcean Pilot Demonstrator 1 is deployed.\n\nThe pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from\n Aanderaa Data Instruments W-sense  Data is being provided to the platform via the ingestion messaging service.\n"
+	"content": "Data providers are systems and applications that actively deliver data to the Smart Ocean platform.\nData is currently being provided to the platform from the Austevoll Research Station of the Institute of Marine Research where SmartOcean Pilot Demonstrator 1 is deployed.\n\nThe pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from\n Aanderaa Data Instruments W-sense  Data is being provided to the platform via the ingestion messaging service.\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/interoperability/",
