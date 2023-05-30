@@ -32,7 +32,7 @@
 	"title": "Data consumers",
 	"tags": null,
 	"description": "",
-	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform.\nData streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  "
+	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform.\nData streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre\n SmartOcean Austevoll Data Set (LINK IS PENDING)  and can be inspected via the Norce Enlighten Portal:\n SFI SmartOcean Data Exploration Portal  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataproviders/",
