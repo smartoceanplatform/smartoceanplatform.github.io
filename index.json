@@ -7,6 +7,13 @@
 	"content": "The SmartOcean portal is maintained by the software engineering research group at Western Norway University of Applied Sciences as part of SmartOcean work package 3 on big-data middleware. \nContact: Prof. Lars Michael Kristensen\n "
 },
 {
+	"uri": "https://smartoceanplatform.github.io/dataconsumers/virtualsensorhub/",
+	"title": "Virtual Sensor Hub",
+	"tags": null,
+	"description": "",
+	"content": "The ThingSpeak channel embedded below consumes the data stream from HVL Virtual SmartOcean Sensor Hub and has been setup for demonstration purposes    "
+},
+{
 	"uri": "https://smartoceanplatform.github.io/dataspaces/",
 	"title": "Data spaces",
 	"tags": null,
@@ -32,7 +39,7 @@
 	"title": "Data consumers",
 	"tags": null,
 	"description": "",
-	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform.\nData streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre\n SmartOcean Austevoll Data Set (LINK IS PENDING)  and can be inspected via the Norce Enlighten Portal:\n SFI SmartOcean Data Exploration Portal  "
+	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform. Data streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT core messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre\n SmartOcean Austevoll Data Set (LINK IS PENDING)  and can be inspected via the Norce Enlighten Portal\n SFI SmartOcean Data Exploration Portal  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataproviders/",

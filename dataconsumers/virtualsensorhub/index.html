@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link rel="alternate" type="application/rss+xml" href="https://smartoceanplatform.github.io/dataconsumers/index.xml" title="SmartOcean Data Service and Application Platform" />
-    <link rel="canonical" href="https://smartoceanplatform.github.io/dataconsumers/">
+    <link rel="canonical" href="https://smartoceanplatform.github.io/dataconsumers/virtualsensorhub/">
 
     <title>
         
-        Data consumers | SmartOcean Data Service and Application Platform
+        Virtual Sensor Hub | SmartOcean Data Service and Application Platform
         
     </title>
 
@@ -59,9 +58,6 @@
             </ul>
         </div>
     </div>
-    <div class="feed-icons">
-        <a href="https://smartoceanplatform.github.io/dataconsumers/index.xml"><img src="/img/feed-icon.svg" alt="RSS feed" /></a>
-    </div>
     </nav><div class="container-fluid">
             <div class="row">
 
@@ -106,14 +102,14 @@
           <a class="nav-link p-0" href="/edgeintegration/"><h6>Edge integration</h6></a>
         
     </li>
-    <li data-nav-id="/dataconsumers/" class="nav-item my-1 parent active haschildren
+    <li data-nav-id="/dataconsumers/" class="nav-item my-1 parent haschildren
         ">
         
         
           <a class="nav-link p-0" href="/dataconsumers/"><h6>Data consumers</h6></a>
         
         <ul class="list-unstyled ml-2">
-        <li data-nav-id="/dataconsumers/virtualsensorhub/" class="nav-item my-1">
+        <li data-nav-id="/dataconsumers/virtualsensorhub/" class="nav-item my-1 active">
                 
                 
                   <a href="/dataconsumers/virtualsensorhub/" class="nav-link p-0">
@@ -179,7 +175,7 @@
                 
 
 <div class="d-flex flex-column">
-    <h1 class="js-title">Data consumers</h1>
+    <h1 class="js-title">Virtual Sensor Hub</h1>
     <div class="d-flex align-items-center">
         
     </div>
@@ -189,27 +185,15 @@
 
 
 <p class="lead">
-    Data consumers are systems and applications that actively use data services from the SmartOcean platform.
+    The ThingSpeak channel embedded below consumes the data stream from HVL Virtual SmartOcean Sensor Hub and has been setup for demonstration purposes
 </p>
 
-<p>Data streams from the SmartOcean platform can be consumed via the:</p>
-<ul>
-<li><a href="https://smartoceanplatform.github.io/dataspaces/">REST API of the data space service</a></li>
-<li><a href="https://smartoceanplatform.github.io/messaging/">MQTT core messaging service</a></li>
-</ul>
-<p>The ThingSpeak channel below consumes the  HVL Virtual Sensor Hub and has been setup for demonstration purposes</p>
-<ul>
-<li><a href="https://thingspeak.com/channels/2129424">Virtual Sensor Hub ThingSpeak Channel</a></li>
-</ul>
-<p>Data streams from the platform are also being consumed by and made available via the <a href="https://www.nmdc.no/nmdc">Norwegian Marine Data Centre</a></p>
-<ul>
-<li>SmartOcean Austevoll Data Set (LINK IS PENDING)</li>
-</ul>
-<p>and can be inspected via the Norce Enlighten Portal</p>
-<ul>
-<li><a href="https://smartocean.web.norce.cloud/#/view/default">SFI SmartOcean Data Exploration Portal</a></li>
-</ul>
-
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2129424/maps/channel_show"></iframe>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2129424/charts/1?bgcolor=%23ffffff&color=%23d62020&days=7&dynamic=true&max=200&min=-273&title=Temperature&type=line&xaxis=Time&yaxis=Degrees+Celsius&yaxismax=30&yaxismin=-30"></iframe>
+<iframe
+width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2129424/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Conductivity&type=line&xaxis=Time&yaxis=m%2FS"></iframe>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2129424/widgets/659041">
+</iframe
 
     
 
