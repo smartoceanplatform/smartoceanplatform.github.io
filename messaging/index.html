@@ -189,23 +189,27 @@
 
 
 <p class="lead">
-    <p>The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.</p>
+    The messaging service of the SmartOcean platform supports publishing data and subscribing to real-time data streams
+</p>
+
+<p>The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.</p>
 <p>The messaging service is comprised of two <a href="https://console.hivemq.cloud">HiveMQ MQTT</a> messaging clusters</p>
 <ul>
 <li>A Data Ingestion Messaging Service for delivering data to the platform</li>
 <li>A Core Messaging Messaging Service for data transformation, forwarding and consumption</li>
 </ul>
+<p>as illustrated in the figure below. The data ingestion service receives data in formats determined by the data sources and a transformation to the SmartOcean data format is performed prior to publishing the data on the core messaging service for further processing.</p>
+<p><img src="../messagingservice.png" alt=""></p>
 <p>The data ingestion service requires authentication for data provisioning with the following topic structure</p>
 <pre><code>smartocean/&lt;domain&gt;/&lt;site&gt;/&lt;subsite&gt;/&lt;node&gt;
+</code></pre><p>The data transformation component published the transformed data on the corresponding topic:</p>
+<pre><code>smartocean/&lt;domain&gt;/&lt;site&gt;/&lt;subsite&gt;/&lt;node&gt;/raw
 </code></pre><p>Currently the following topics are in used corresponding to the data sources of SFI SmartOcean pilot demonstrator 1</p>
 <pre><code>smartocean/pilotdemo_0001/austevoll/north/seaguardII_0001
 smartocean/pilotdemo_0001/austevoll/south/seaguardII_0002
 smartocean/pilotdemo_0001/austevoll/wsense/node1
 smartocean/testing/virtualsensorhub
 </code></pre>
-</p>
-
-
 
     
 

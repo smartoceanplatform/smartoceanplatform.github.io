@@ -25,7 +25,7 @@
 	"title": "Messaging",
 	"tags": null,
 	"description": "",
-	"content": "The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.\nThe messaging service is comprised of two HiveMQ MQTT messaging clusters\n A Data Ingestion Messaging Service for delivering data to the platform A Core Messaging Messaging Service for data transformation, forwarding and consumption  The data ingestion service requires authentication for data provisioning with the following topic structure\nsmartocean/\u0026lt;domain\u0026gt;/\u0026lt;site\u0026gt;/\u0026lt;subsite\u0026gt;/\u0026lt;node\u0026gt; Currently the following topics are in used corresponding to the data sources of SFI SmartOcean pilot demonstrator 1\nsmartocean/pilotdemo_0001/austevoll/north/seaguardII_0001 smartocean/pilotdemo_0001/austevoll/south/seaguardII_0002 smartocean/pilotdemo_0001/austevoll/wsense/node1 smartocean/testing/virtualsensorhub  "
+	"content": "The messaging service of the SmartOcean platform supports publishing data and subscribing to real-time data streams The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.\nThe messaging service is comprised of two HiveMQ MQTT messaging clusters\n A Data Ingestion Messaging Service for delivering data to the platform A Core Messaging Messaging Service for data transformation, forwarding and consumption  as illustrated in the figure below. The data ingestion service receives data in formats determined by the data sources and a transformation to the SmartOcean data format is performed prior to publishing the data on the core messaging service for further processing.\nThe data ingestion service requires authentication for data provisioning with the following topic structure\nsmartocean/\u0026lt;domain\u0026gt;/\u0026lt;site\u0026gt;/\u0026lt;subsite\u0026gt;/\u0026lt;node\u0026gt; The data transformation component published the transformed data on the corresponding topic:\nsmartocean/\u0026lt;domain\u0026gt;/\u0026lt;site\u0026gt;/\u0026lt;subsite\u0026gt;/\u0026lt;node\u0026gt;/raw Currently the following topics are in used corresponding to the data sources of SFI SmartOcean pilot demonstrator 1\nsmartocean/pilotdemo_0001/austevoll/north/seaguardII_0001 smartocean/pilotdemo_0001/austevoll/south/seaguardII_0002 smartocean/pilotdemo_0001/austevoll/wsense/node1 smartocean/testing/virtualsensorhub "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/edgeintegration/",
@@ -39,21 +39,21 @@
 	"title": "Data consumers",
 	"tags": null,
 	"description": "",
-	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform. Data streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT core messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre\n SmartOcean Austevoll Data Set (LINK IS PENDING)  and can be inspected via the Norce Enlighten Portal\n SFI SmartOcean Data Exploration Portal  "
+	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform. Data streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT core messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for public demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre and via the Norce Enlighten Portal\nSmartOcean Austevoll Data Set  SFI SmartOcean Data Exploration Portal  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataproviders/",
 	"title": "Data providers",
 	"tags": null,
 	"description": "",
-	"content": "Data providers are systems and applications that actively deliver data to the Smart Ocean platform.\nData is currently being provided to the platform from the Austevoll Research Station of the Institute of Marine Research where SmartOcean Pilot Demonstrator 1 is deployed.\n\nThe pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from\n Aanderaa Data Instruments W-sense  Data is being provided to the platform via the ingestion messaging service.\n"
+	"content": "Data providers are systems and applications that actively deliver marine data-sets and data streams to the Smart Ocean platform. Data is currently being provided to the platform from the Austevoll Research Station of the Institute of Marine Research where the SmartOcean Pilot Demonstrator 1 has been deployed.\nThe pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from\n Aanderaa Data Instruments (AADI/Xylem) W-sense  Data is being provided to the platform via the ingestion messaging service as illustrated in the figure below\nThe data ingestion service does not provided any constrained on the format in which data is being provided in order to support integration of a wide range of data sources.\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/interoperability/",
 	"title": "Interoperability",
 	"tags": null,
 	"description": "",
-	"content": "Under construction "
+	"content": "Interoperability is a central aspect of the SmartOcean platform which provided data provision and consumption via standardised REST and MQTT cloud APIs, and data and meta-data formats for service integration Work is currently ongoing on standardising a data- and meta-data format for the SmartOcean platform to be used both internally in the platform and for exposing data. The figure below shows the current basic data model being used by the SmartOcean platform.\nAn implementation of the data format in Python is available for consortium members:\n https://github.com/smartoceanplatform/datamodels  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/security/",
@@ -81,7 +81,7 @@
 	"title": "Architecture",
 	"tags": null,
 	"description": "",
-	"content": ""
+	"content": "The architecture of the SmartOcean platform is based on a set of microservices providing the ability to consume and provide data from both internal and external systems. The figure below shows the overall architecture of the SmartOcean platform comprised of the following services:\n Data space service: providing longer-term access to data Messaging service: providing access to real-time data streams Edge integration service: providing data and control integration with the underwater sensor networks Security service: providing authentication and authorization services Data quality service: providing data quality control and outlier detection Monitoring service: providing key performance indicators for the platform  The SmartOcean platform architecture is based on a comprehensive interview study with stakeholders and domain expert in order to solicit requirements. The architecture is documented in the following publications:\n  N-T. Nguyen, R. Heldal, K. Lima, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen, K.W. Høydal, P.A Reiersgaard, Y. Kvinnsland: Engineering Challenges of Stationary Wireless Smart Ocean Observation Systems. IEEE Internet Things J. 10(16): 14712-14724 (2023)\n  R. Heldal, L.M. Kristensen, K. Lima, T. D. Oyetoyan, N-T. Nguyen: Towards a Formal and Executable Software Architecture Specification of the Smart Ocean Data Service Platform. PNSE@Petri Nets 2023: 110-125, 2022.\n  K. Lima, N-T. Nguyen, R. Heldal, E. Knauss, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen: Marine Data Sharing: Challenges, Technology Drivers and Quality Attributes. PROFES 2022: 124-140\n  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/categories/",
