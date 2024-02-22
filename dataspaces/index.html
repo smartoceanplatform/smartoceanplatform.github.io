@@ -189,16 +189,12 @@
 
 
 <p class="lead">
-    The SmartOcean data space service provides uniform access to platform data services and external data sources.
+    <p>The data space service can both serve as a storage service for data providers, and as a proxy service for access to external data services.</p>
+<p>The data space service relies on time series data bases accessible via a REST API</p>
+<img src="../soprestapi.png"  height="400">
+
 </p>
 
-<p>The data streams of the core messaging service are forwarded into time series collections for longer-term storage as illustrated in the figure below</p>
-<p><img src="../dataspaceservice.png" alt=""></p>
-<p>The data space service which currently uses the MongoDB cloud-based storage and provides an internal provider REST API for storing data and an external data consumer API for retrieving data. As the data service evolves, it will also be able to serve as a proxy service for access to external data services.</p>
-<ul>
-<li>Data space service implementation: <a href="https://github.com/smartoceanplatform/dataspace-service">https://github.com/smartoceanplatform/dataspace-service</a></li>
-<li>Data stream forwarding: <a href="https://github.com/smartoceanplatform/data_forwarder">https://github.com/smartoceanplatform/data_forwarder</a></li>
-</ul>
 
 
     

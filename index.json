@@ -4,7 +4,7 @@
 	"title": "Contact",
 	"tags": null,
 	"description": "",
-	"content": "The SmartOcean portal is maintained by the software engineering research group at Western Norway University of Applied Sciences as part of SmartOcean work package 3 on big-data middleware. Work package 3 is organised into three subprojects\n\nContact: Prof. Lars Michael Kristensen\n "
+	"content": "The SmartOcean portal is maintained by the software engineering research group at Western Norway University of Applied Sciences as part of SmartOcean work package 3 on big-data middleware. \nContact: Prof. Lars Michael Kristensen\n "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataconsumers/virtualsensorhub/",
@@ -18,70 +18,70 @@
 	"title": "Data spaces",
 	"tags": null,
 	"description": "",
-	"content": "The SmartOcean data space service provides uniform access to platform data services and external data sources. The data streams of the core messaging service are forwarded into time series collections for longer-term storage as illustrated in the figure below\nThe data space service which currently uses the MongoDB cloud-based storage and provides an internal provider REST API for storing data and an external data consumer API for retrieving data. As the data service evolves, it will also be able to serve as a proxy service for access to external data services.\n Data space service implementation: https://github.com/smartoceanplatform/dataspace-service Data stream forwarding: https://github.com/smartoceanplatform/data_forwarder  "
+	"content": "The data space service can both serve as a storage service for data providers, and as a proxy service for access to external data services.\nThe data space service relies on time series data bases accessible via a REST API\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/messaging/",
 	"title": "Messaging",
 	"tags": null,
 	"description": "",
-	"content": "The messaging service of the SmartOcean platform supports publishing data and subscribing to real-time data streams The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.\nThe messaging service is comprised of two HiveMQ MQTT messaging clusters\n A Data Ingestion Messaging Service for delivering data to the platform A Core Messaging Messaging Service for data transformation, forwarding and consumption  as illustrated in the figure below. The data ingestion service receives data in formats determined by the data sources and a transformation to the SmartOcean data format is performed prior to publishing the data on the core messaging service for further processing.\nThe data ingestion service requires authentication for data provisioning with the following topic structure\n Data transformation implementation: https://github.com/smartoceanplatform/data_transformer  smartocean/\u0026lt;domain\u0026gt;/\u0026lt;site\u0026gt;/\u0026lt;subsite\u0026gt;/\u0026lt;node\u0026gt; The data transformation component published the transformed data on the corresponding topic:\nsmartocean/\u0026lt;domain\u0026gt;/\u0026lt;site\u0026gt;/\u0026lt;subsite\u0026gt;/\u0026lt;node\u0026gt;/raw Currently the following topics are in used corresponding to the data sources of SFI SmartOcean pilot demonstrator 1\nsmartocean/pilotdemo_0001/austevoll/north/seaguardII_0001 smartocean/pilotdemo_0001/austevoll/south/seaguardII_0002 smartocean/pilotdemo_0001/austevoll/wsense/node1 smartocean/testing/virtualsensorhub "
+	"content": "The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.\nThe messaging service is comprised of two HiveMQ MQTT messaging clusters\n A Data Ingestion Messaging Service for delivering data to the platform A Core Messaging Messaging Service for data transformation, forwarding and consumption  The data ingestion service requires authentication for data provisioning with the following topic structure\nsmartocean/\u0026lt;domain\u0026gt;/\u0026lt;site\u0026gt;/\u0026lt;subsite\u0026gt;/\u0026lt;node\u0026gt; Currently the following topics are in used corresponding to the data sources of SFI SmartOcean pilot demonstrator 1\nsmartocean/pilotdemo_0001/austevoll/north/seaguardII_0001 smartocean/pilotdemo_0001/austevoll/south/seaguardII_0002 smartocean/pilotdemo_0001/austevoll/wsense/node1 smartocean/testing/virtualsensorhub  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/edgeintegration/",
 	"title": "Edge integration",
 	"tags": null,
 	"description": "",
-	"content": "The primary purpose of the edge integration service is to support the delivery of data from the underwater wireless sensor networks (UWSNs) into the data services of the platform. The edge integration facilitates the transfer of data from the information acquisition layer into the data and application service layer. The integration point is needed since the UWSNs operate with highly specialised communication protocols intended for acoustic communication and the data will have be provided to a gateway service via, e.g., 5G, WiFI, cabling or satellite communication.\nThe current edge integration is handled via the sensor equipment providers and the data ingestion messaging service.\n"
+	"content": "The primary purpose of the edge integration service is to support the delivery of data from the underwater wireless sensor networks (UWSNs) into the data services of the platform. Hence, it facilitates the transfer of data from the information acquisition layer into the data and application service layer (see Figure~\\ref{fig:smartoceansystem}). The integration point is needed since the UWSNs operate with highly specialised communication protocols intended for acoustic communication and the data will have be provided to a gateway service via, e.g., 5G, WiFI, cabling or satellite communication. "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataconsumers/",
 	"title": "Data consumers",
 	"tags": null,
 	"description": "",
-	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform. Data streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT core messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for public demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre and via the Norce Enlighten Portal\nSmartOcean Austevoll Data Set  SFI SmartOcean Data Exploration Portal  "
+	"content": "Data consumers are systems and applications that actively use data services from the SmartOcean platform.\nData streams from the SmartOcean platform can be consumed via the:\n REST API of the data space service MQTT messaging service  The ThingSpeak channel below consumes the HVL Virtual Sensor Hub and has been setup for demonstration purposes\n Virtual Sensor Hub ThingSpeak Channel  Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre\n SmartOcean Austevoll Data Set (LINK IS PENDING)  and can be inspected via the Norce Enlighten Portal\n SFI SmartOcean Data Exploration Portal  "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataproviders/",
 	"title": "Data providers",
 	"tags": null,
 	"description": "",
-	"content": "Data providers are systems and applications that actively deliver marine data-sets and data streams to the Smart Ocean platform. Data is currently being provided to the platform from the Austevoll Research Station of the Institute of Marine Research where the SmartOcean Pilot Demonstrator 1 has been deployed.\nThe pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from\n Aanderaa Data Instruments (AADI/Xylem) W-sense  Data is being provided to the platform via the ingestion messaging service as illustrated in the figure below\nThe data ingestion service does not provided any constraints on the format in which data is being provided in order to support integration of a wide range of data sources.\n W-Sense business to business implementation: https://github.com/smartoceanplatform/wsense-b2b  "
+	"content": "Data providers are systems and applications that actively deliver data to the Smart Ocean platform.\nData is currently being provided to the platform from the Austevoll Research Station of the Institute of Marine Research where SmartOcean Pilot Demonstrator 1 is deployed.\n\nThe pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from\n Aanderaa Data Instruments W-sense  Data is being provided to the platform via the ingestion messaging service.\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/interoperability/",
 	"title": "Interoperability",
 	"tags": null,
 	"description": "",
-	"content": "Interoperability is a central aspect of the SmartOcean platform which provided data provision and consumption via standardised REST and MQTT cloud APIs, and data and meta-data formats for service integration Work is currently ongoing on standardising a data- and meta-data format for the SmartOcean platform to be used both internally in the platform and for exposing data. The figure below shows the current basic data model being used by the SmartOcean platform.\nAn implementation of the data format in Python is available for consortium members:\n https://github.com/smartoceanplatform/datamodels  "
+	"content": "Under construction "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/security/",
 	"title": "Security",
 	"tags": null,
 	"description": "",
-	"content": "The security service provides identity management and access control for data services The security service provides system-wide services in the form of\n Identity management Authentication Authorization  The implementation of the security service is based on an extensive threat analysis performed in collaboration with internal and external stakeholders.\n"
+	"content": "Under construction "
 },
 {
 	"uri": "https://smartoceanplatform.github.io/dataqualitycontrol/",
 	"title": "Data quality",
 	"tags": null,
 	"description": "",
-	"content": "The data quality service provides automated assessment of measurement quality and data integrity In-situ marine data is prone to error due to several factors. Underwater sensors may produce a lot of anomalies when powered by low-batteries. Biofouling is an accumulation of microorganisms, plants, algae, or small animals on underwater sensors, resulting in unexpected measurement results. If low-quality data is used in decision-making processes, the results will be misleading or suboptimal; thus, data quality control must be done to ensure data reliability.\nMost data quality control activities predominantly relies on manual checks. Thanks to today\u0026rsquo;s advanced sensory technologies, vast amounts of data are collected on a daily basis. Manual DQC can be time-consuming and lead to significant delays in data publication. To address this challenge and speed up the DQC process, we are developing an automated DQC framework called Adaptive Anomaly Detector (AdapAD) based on Artificial Intelligence (AI), specifically unsupervised anomaly detection.\nThe SmartOcean project has developed a framework that aims to detect anomalous measurements from real-time data in a scalable manner, and which support data validators and data consumers to assess the quality of data for further usage.\n AutoQC framework implementation: https://github.com/smartoceanplatform/AutoQC_framework  The framework is based upon the work published in:\n N-T. Nguyen, K. Lima, A.M Skalvik, R. Heldal, E. Knauss, T.D Oyetoyan, P. Pelliccione C. Sætre: Synthesized data quality requirements and roadmap for improving reusability of in-situ marine data. In Proc. of 31th International Requirements Engineering Conference, 2023.  "
+	"content": "In-situ marine data is prone to error due to several factors. Underwater sensors may produce a lot of anomalies when powered by low-batteries. Biofouling is an accumulation of microorganisms, plants, algae, or small animals on underwater sensors, resulting in unexpected measurement results. If low-quality data is used in decision-making processes, the results will be misleading or suboptimal; thus, data quality control (DQC) must be done to ensure data reliability.\nFor now, DQC activities predominantly relies on manual checks. Thanks to today\u0026rsquo;s advanced sensory technologies, vast amounts of data are collected on a daily basis. Manual DQC can be time-consuming and lead to significant delays in data publication. To address this challenge and speed up the DQC process, we are developing an automated DQC framework called Adaptive Anomaly Detector (AdapAD) based on Artificial Intelligence (AI), specifically unsupervised anomaly detection.\nThe framework aims to detect anomalous measurements from real-time data, which support data validators and data consumers to assess the quality of data for further usage.\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/monitoring/",
 	"title": "Monitoring",
 	"tags": null,
 	"description": "",
-	"content": "The monitoring service provides metrics and key performance indicators for observability of the SmartOcean platform performance. It is crucial to monitor the status of data received from different observing systems deployed at sea because of all the challenges imposed by wireless data delivery from underwater wireless sensor networks. The service is the foundation upon which observability of the platform where more context on how those collected metrics can be used. Observability allows the platform operators to assess the status of the platform\u0026rsquo;s services and data in runtime with regard to established goals.\nThe monitoring service and framework is responsible for collecting the Smart Ocean Platform behavior metrics from the different services of the pipeline. An overview of the framework is provided below:\nThe framework is based upon the work published in:\n K. Lima, L. Iovino, M.T Rossi, R. Heldal, T.D Oyetoyan, M. De Sanctis: Marine Data Observability using KPIS: An MDSE Approach. To appear in Proc. of MODELS 2023 conference.  "
+	"content": "It is crucial to monitor the status of data received from different observing systems deployed at sea because of all the challenges imposed by wireless data delivery from underwater wireless sensor networks.\nThis component is responsible for collecting the Smart Ocean Platform behavior metrics from the different services of the pipeline. This service is the foundation upon which observability of the platform where more context on how those collected metrics can be used. Observability allows the platform operators to assess the status of the platform\u0026rsquo;s services and data in runtime with regard to established goals.\n"
 },
 {
 	"uri": "https://smartoceanplatform.github.io/architecture/",
 	"title": "Architecture",
 	"tags": null,
 	"description": "",
-	"content": "The architecture of the SmartOcean platform is based on a set of microservices providing the ability to consume and provide data from both internal and external systems. The figure below shows the overall architecture of the SmartOcean platform comprised of the following services:\n Data space service: providing longer-term access to data Messaging service: providing access to real-time data streams Edge integration service: providing data and control integration with the underwater sensor networks Security service: providing authentication and authorization services Data quality service: providing data quality control and outlier detection Monitoring service: providing key performance indicators for the platform  The SmartOcean platform architecture is based on a comprehensive interview study with stakeholders and domain expert in order to solicit requirements. The architecture is documented in the following publications:\n  N-T. Nguyen, R. Heldal, K. Lima, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen, K.W. Høydal, P.A Reiersgaard, Y. Kvinnsland: Engineering Challenges of Stationary Wireless Smart Ocean Observation Systems. IEEE Internet Things J. 10(16): 14712-14724 (2023)\n  R. Heldal, L.M. Kristensen, K. Lima, T. D. Oyetoyan, N-T. Nguyen: Towards a Formal and Executable Software Architecture Specification of the Smart Ocean Data Service Platform. PNSE@Petri Nets 2023: 110-125, 2022.\n  K. Lima, N-T. Nguyen, R. Heldal, E. Knauss, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen: Marine Data Sharing: Challenges, Technology Drivers and Quality Attributes. PROFES 2022: 124-140\n  "
+	"content": ""
 },
 {
 	"uri": "https://smartoceanplatform.github.io/categories/",
