@@ -5,6 +5,7 @@
     <link>https://smartoceanplatform.github.io/edgeintegration/</link>
     <description>Recent content in Edge integration on SmartOcean Data Service and Application Platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://smartoceanplatform.github.io/edgeintegration/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://smartoceanplatform.github.io/edgeintegration/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

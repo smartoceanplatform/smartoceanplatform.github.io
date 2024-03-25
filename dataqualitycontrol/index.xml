@@ -5,6 +5,7 @@
     <link>https://smartoceanplatform.github.io/dataqualitycontrol/</link>
     <description>Recent content in Data quality on SmartOcean Data Service and Application Platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://smartoceanplatform.github.io/dataqualitycontrol/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://smartoceanplatform.github.io/dataqualitycontrol/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

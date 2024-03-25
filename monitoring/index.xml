@@ -5,6 +5,7 @@
     <link>https://smartoceanplatform.github.io/monitoring/</link>
     <description>Recent content in Monitoring on SmartOcean Data Service and Application Platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://smartoceanplatform.github.io/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://smartoceanplatform.github.io/monitoring/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

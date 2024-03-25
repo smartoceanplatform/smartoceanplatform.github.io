@@ -5,15 +5,14 @@
     <link>https://smartoceanplatform.github.io/dataconsumers/</link>
     <description>Recent content in Data consumers on SmartOcean Data Service and Application Platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://smartoceanplatform.github.io/dataconsumers/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://smartoceanplatform.github.io/dataconsumers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Virtual Sensor Hub</title>
       <link>https://smartoceanplatform.github.io/dataconsumers/virtualsensorhub/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://smartoceanplatform.github.io/dataconsumers/virtualsensorhub/</guid>
-      <description>The ThingSpeak channel embedded below consumes the data stream from HVL Virtual SmartOcean Sensor Hub and has been setup for demonstration purposes    </description>
+      <description> The ThingSpeak channel embedded below consumes the data stream from HVL Virtual SmartOcean Sensor Hub and has been setup for demonstration purposes </description>
     </item>
-    
   </channel>
 </rss>
