@@ -172,7 +172,12 @@
 
 </div>
                 <div class="docs-toc large order-lg-2 order-md-0 order-xs-1 col-12 col-lg-2 col-xl-2 position-sticky border-left"><div class="docs-toc">
-	<nav id="TableOfContents"></nav>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#deployed-austeoll-data-space-service">Deployed Austeoll Data Space Service</a></li>
+    <li><a href="#implementation">Implementation</a></li>
+  </ul>
+</nav>
 </div>
 </div>
                 <div class="main col-12 order-1 col-md-9 col-lg-10 col-xl-8 py-3">
@@ -195,6 +200,12 @@
 <p>The data streams of the core messaging service are forwarded into time series collections for longer-term storage as illustrated in the figure below</p>
 <p><img src="../dataspaceservice.png" alt=""></p>
 <p>The data space service which currently uses the MongoDB cloud-based storage and provides an internal provider REST API for storing data and an external data consumer API for retrieving data. As the data service evolves, it will also be able to serve as a proxy service for access to external data services.</p>
+<h2 id="deployed-austeoll-data-space-service">Deployed Austeoll Data Space Service</h2>
+<ul>
+<li>REST API: <a href="https://dataspaceservice.jollywater-00619340.westus2.azurecontainerapps.io/">https://dataspaceservice.jollywater-00619340.westus2.azurecontainerapps.io/</a></li>
+<li>Swagger Documentation: <a href="https://dataspaceservice.jollywater-00619340.westus2.azurecontainerapps.io/docs">https://dataspaceservice.jollywater-00619340.westus2.azurecontainerapps.io/docs</a></li>
+</ul>
+<h2 id="implementation">Implementation</h2>
 <ul>
 <li>Data space service implementation: <a href="https://github.com/smartoceanplatform/dataspace-service">https://github.com/smartoceanplatform/dataspace-service</a></li>
 <li>Data stream forwarding: <a href="https://github.com/smartoceanplatform/data_forwarder">https://github.com/smartoceanplatform/data_forwarder</a></li>
