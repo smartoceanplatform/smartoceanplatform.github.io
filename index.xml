@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-UK</language>
     <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
-    <lastBuildDate>Tue, 13 Jan 2026 11:00:09 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 13:36:42 +0100</lastBuildDate>
     <atom:link href="https://smartoceanplatform.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data model for time series data</title>
@@ -17,7 +17,7 @@
       <description>&lt;p&gt;Interoperability is a central aspect of the SmartOcean platform which provided data provision and consumption via standardised REST and MQTT cloud APIs, and data and meta-data formats for service integration.&lt;/p&gt;&#xA;&lt;p&gt;Work is ongoing on standardising a data- and meta-data format for the SmartOcean platform to be used both internally in the platform and for exposing data. The figure below shows the current basic data model being used by the SmartOcean platform.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Digital Twin for Acoustic Communication</title>
+      <title>Digital Twin for Optimising Acoustic Communication</title>
       <link>https://smartoceanplatform.github.io/post/dtacoustic/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://smartoceanplatform.github.io/post/dtacoustic/</guid>
@@ -28,14 +28,14 @@
       <link>https://smartoceanplatform.github.io/post/enlighten/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0100</pubDate>
       <guid>https://smartoceanplatform.github.io/post/enlighten/</guid>
-      <description>&lt;p&gt;Data sets from the Austevoll test site can be explored via the Smart Ocean Enlighten Data Explorer developed by NORCE.&lt;/p&gt;&#xA;&lt;p&gt;SFI Smart Ocean Data Exploration Portal: &lt;a href=&#34;https://smartocean.web.norce.cloud/#/view/default&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://smartocean.web.norce.cloud/#/view/default&lt;/a&gt;&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://smartocean.web.norce.cloud/#/view/default&#34; width=&#34;600&#34; height=&#34;450&#34; style=&#34;border:0;&#34;&gt;&lt;/iframe&gt;</description>
+      <description>&lt;p&gt;Data sets from the Austevoll test site can be explored via the Smart Ocean Enlighten Data Explorer developed by NORCE.&lt;/p&gt;&#xA;&lt;p&gt;SFI Smart Ocean Data Exploration: &lt;a href=&#34;https://smartocean.web.norce.cloud/#/view/default&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://smartocean.web.norce.cloud/#/view/default&lt;/a&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center;&#34;&gt; &lt;a href=&#34;https://smartocean.web.norce.cloud/#/view/default&#34;&gt; &lt;img src=https://smartoceanplatform.github.io/post/enlighten/norceexplorer.png height =&#34;350&#34; alt=&#34;Explore the tool&#34; /&gt; &lt;/a&gt; &lt;/div&gt;&#xA;&lt;br&gt;</description>
     </item>
     <item>
       <title>Norwegian Marine Data Centre</title>
       <link>https://smartoceanplatform.github.io/post/nmdc/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0100</pubDate>
       <guid>https://smartoceanplatform.github.io/post/nmdc/</guid>
-      <description>&lt;p&gt;A selected data set from the Austevoll test site has been made available via the Norwegian marine Data Centre.&lt;/p&gt;&#xA;&lt;img src=https://smartoceanplatform.github.io/post/nmdc/nmdc.png height =&#34;50&#34; alt=&#34;NMDC&#34; /&gt;&#xA;&lt;p&gt;Smart Ocean Austevoll Data Set: &lt;a href=&#34;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;A selected data set from the Austevoll test site has been made available via the Norwegian marine Data Centre.&lt;/p&gt;&#xA;&lt;p&gt;Smart Ocean Austevoll Data Set: &lt;a href=&#34;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
@@ -56,7 +56,7 @@
       <link>https://smartoceanplatform.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://smartoceanplatform.github.io/publications/</guid>
-      <description>&lt;h1 id=&#34;papers&#34;&gt;Papers&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;K. Lima, N-T. Nguyen, R. Heldal, L.M. Kristensen, T.D. Oyetoya, P. Pelliccione, E. Knauss. A data-flow oriented software architecture for heterogeneous marine data streams. To appera in Proc. of 21st IEEE International Conference on Software Architecture, 2024.&lt;/li&gt;&#xA;&lt;li&gt;N-T. Nguyen, R. Heldal, K. Lima, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen, K.W. Høydal, P.A Reiersgaard, Y. Kvinnsland: &lt;em&gt;Engineering Challenges of Stationary Wireless Smart Ocean Observation Systems&lt;/em&gt;. IEEE Internet Things J. 10(16): 14712-14724 (2023)&lt;/li&gt;&#xA;&lt;li&gt;R. Heldal, L.M. Kristensen, K. Lima, T. D. Oyetoyan, N-T. Nguyen: &lt;em&gt;Towards a Formal and Executable Software Architecture Specification of the Smart Ocean Data Service Platform&lt;/em&gt;. PNSE@Petri Nets 2023: 110-125, 2023.&lt;/li&gt;&#xA;&lt;li&gt;K. Lima, N-T. Nguyen, R. Heldal, E. Knauss, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen: &lt;em&gt;Marine Data Sharing: Challenges, Technology Drivers and Quality Attributes&lt;/em&gt;. PROFES 2022: 124-140, 2022.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;phd-theses&#34;&gt;PhD theses&lt;/h1&gt;&#xA;&lt;h1 id=&#34;bachelor-and-master-theses&#34;&gt;Bachelor and master theses&lt;/h1&gt;</description>
+      <description>&lt;h1 id=&#34;selected-papers&#34;&gt;Selected Papers&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Keila Lima, Tosin Daniel Oyetoyan, Rogardt Heldal and Wilhelm Hasselbring, Evaluation of MQTT Bridge Architectures in a Cross-Organizational Context, 2025, IEEE 22nd International Conference on Software Architecture (ICSA) (2025): 243-254.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ivan Spajić, Lars Michael Kristensen, Volker Stolz, Toward Digital-Twin-Assisted Data Acquisition in Underwater Acoustic Sensor Networks, Procedia Computer Science, Volume 257, 2025, Pages 241-248&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Heldal, R., Is generalisation hindering the adoption of your findings? ESEM ’24: Proceedings of the 18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, Pages 348 – 358&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
