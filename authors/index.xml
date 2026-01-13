@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Smart Ocean Cloud Platform </title>
+    <link>https://smartoceanplatform.github.io/authors/</link>
+    <description>Recent content in Authors on Smart Ocean Cloud Platform </description>
+    <generator>Hugo</generator>
+    <language>en-UK</language>
+    <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
+    <lastBuildDate>Sun, 21 Dec 2025 10:27:47 +0100</lastBuildDate>
+    <atom:link href="https://smartoceanplatform.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lars Michael Kristensen</title>
+      <link>https://smartoceanplatform.github.io/authors/lars-michael-kristensen/</link>
+      <pubDate>Fri, 19 Dec 2025 10:40:29 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/authors/lars-michael-kristensen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SFI Smart Ocean Consortium</title>
+      <link>https://smartoceanplatform.github.io/authors/sfi-smart-ocean-consortium/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/authors/sfi-smart-ocean-consortium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SFI Smart Ocean Consortium</title>
+      <link>https://smartoceanplatform.github.io/authors/smart-ocean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/authors/smart-ocean/</guid>
+      <description>&lt;p&gt;SFI Smart Ocean Consortium.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

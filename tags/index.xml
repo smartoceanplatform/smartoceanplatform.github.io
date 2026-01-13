@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on SmartOcean Data Service and Application Platform</title>
+    <title>Tags on Smart Ocean Cloud Platform </title>
     <link>https://smartoceanplatform.github.io/tags/</link>
-    <description>Recent content in Tags on SmartOcean Data Service and Application Platform</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <description>Recent content in Tags on Smart Ocean Cloud Platform </description>
+    <generator>Hugo</generator>
+    <language>en-UK</language>
+    <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
+    <lastBuildDate>Sun, 21 Dec 2025 10:27:47 +0100</lastBuildDate>
     <atom:link href="https://smartoceanplatform.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Featured</title>
+      <link>https://smartoceanplatform.github.io/tags/featured/</link>
+      <pubDate>Fri, 19 Dec 2025 10:40:29 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/tags/featured/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Json</title>
+      <link>https://smartoceanplatform.github.io/tags/json/</link>
+      <pubDate>Fri, 19 Dec 2025 10:40:29 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/tags/json/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pypi</title>
+      <link>https://smartoceanplatform.github.io/tags/pypi/</link>
+      <pubDate>Fri, 19 Dec 2025 10:40:29 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/tags/pypi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Index</title>
+      <link>https://smartoceanplatform.github.io/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/tags/index/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

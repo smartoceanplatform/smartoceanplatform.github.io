@@ -1,122 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to the SmartOcean Platform on SmartOcean Data Service and Application Platform</title>
+    <title>Smart Ocean Cloud Platform </title>
     <link>https://smartoceanplatform.github.io/</link>
-    <description>Recent content in Welcome to the SmartOcean Platform on SmartOcean Data Service and Application Platform</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://smartoceanplatform.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content on Smart Ocean Cloud Platform </description>
+    <generator>Hugo</generator>
+    <language>en-UK</language>
+    <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
+    <lastBuildDate>Mon, 12 Jan 2026 21:51:03 +0100</lastBuildDate>
+    <atom:link href="https://smartoceanplatform.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Alerts</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/alerts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/alerts/</guid>
-      <description>The alerts shortcode allows you to let information stand out by means of an alert styled box. This can be used to indicate danger, warning, success or info.
- I&amp;rsquo;m a danger alert  I&amp;rsquo;m a warning alert  I&amp;rsquo;m a success alert  I&amp;rsquo;m an info alert  Usage Place the following shortcode on the page Copy   {{&amp;lt; alert style=&amp;#34;STYLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /alert &amp;gt;}}    Parameters Style The style parameter is directly applied to the alert as a class in the format &amp;quot;{STYLE}&amp;quot;.</description>
+      <title>Data model for time series data</title>
+      <link>https://smartoceanplatform.github.io/page/datamodel/</link>
+      <pubDate>Fri, 19 Dec 2025 10:40:29 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/page/datamodel/</guid>
+      <description>&lt;p&gt;Interoperability is a central aspect of the SmartOcean platform which provided data provision and consumption via standardised REST and MQTT cloud APIs, and data and meta-data formats for service integration.&lt;/p&gt;&#xA;&lt;p&gt;Work is ongoing on standardising a data- and meta-data format for the SmartOcean platform to be used both internally in the platform and for exposing data. The figure below shows the current basic data model being used by the SmartOcean platform.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Installation</title>
-      <link>https://smartoceanplatform.github.io/getting-started/installation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/getting-started/installation/</guid>
-      <description>Installing Ace is easy. Just install the Hugo binary, create a new site and install the Ace theme. Installing Hugo In order to run this theme, you need to install Hugo on your system. This theme requires Hugo&amp;rsquo;s extended version to support SCSS compilation, so make please sure you install the extended version. For more detailed information and other methods of installation you can visit the Hugo installation guide.
-There may be other ways to install Hugo that are more applicable for your project.</description>
+      <title>Digital Twin for Acoustic Communication</title>
+      <link>https://smartoceanplatform.github.io/post/dtacoustic/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/post/dtacoustic/</guid>
+      <description>&lt;img src=&#34;https://smartoceanplatform.github.io/post/dtacoustic/dtplot600.png&#34; alt=&#34;Digital Twin Plot&#34;&gt;&lt;!-- &lt;img src=dtplot.png width =&#34;600&#34; alt=&#34;Digital Twin Plot&#34; /&gt;--&gt;&#xA;&lt;p&gt;HVL and Bouvet has jointly developed a digital twin targetting the optimization of compression algorithm for acoustic underwater communication.&lt;/p&gt;&#xA;&lt;p&gt;Dashboard for the digital twin solution: &lt;a href=&#34;https://dashboard-smartocean1p.azurewebsites.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dashboard-smartocean1p.azurewebsites.net/&lt;/a&gt; (requires login)&lt;/p&gt;&#xA;&lt;img src=dtdashboard.png width =&#34;600&#34; alt=&#34;Digital Twin Dashboard&#34; /&gt;</description>
     </item>
-    
     <item>
-      <title>Buttons</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/buttons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/buttons/</guid>
-      <description>The button shortcode allows you to add a button to the page. This button is a HTML anchor element and can thus be used to link to another page or website.
- Button  Button  Button  Button  Button  Button  Button  Usage Place the following shortcode on the page Copy   {{&amp;lt; button style=&amp;#34;STYLE&amp;#34; link=&amp;#34;https://yourwebsite.com&amp;#34; &amp;gt;}} [content] {{&amp;lt; /button &amp;gt;}}    Parameters style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;btn-{STYLE}&amp;quot;.</description>
+      <title>Smart Ocean Data Exploration Portal</title>
+      <link>https://smartoceanplatform.github.io/post/enlighten/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0100</pubDate>
+      <guid>https://smartoceanplatform.github.io/post/enlighten/</guid>
+      <description>&lt;img src=&#34;https://smartoceanplatform.github.io/post/enlighten/enlighten.png&#34; alt=&#34;NMDC&#34;&gt;&lt;p&gt;Data set from the Austevoll test site has been made available via the Norwegian marine Data Centre.&lt;/p&gt;&#xA;&lt;p&gt;SFI Smart Ocean Data Exploration Portal: &lt;a href=&#34;https://smartocean.web.norce.cloud/#/view/default&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://smartocean.web.norce.cloud/#/view/default&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;iframe width=&#34;850&#34; height=&#34;460&#34; style=&#34;border: 1px solid #cccccc;&#34; src=&#34;https://smartocean.web.norce.cloud/#/view/default&#34;&gt;&lt;/iframe&gt;--&gt;</description>
     </item>
-    
     <item>
-      <title>Usage</title>
-      <link>https://smartoceanplatform.github.io/getting-started/usage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/getting-started/usage/</guid>
-      <description>With the site created and the theme installed, it&amp;rsquo;s time to run the server and create content. Starting &amp;amp; building the site Development server To start the site for development mode, execute the following command while in your /docs folder: Copy   hugo server    This will start a server on your localhost that will live-update with any changes you make to your site.
-For more Hugo commands visit https://gohugo.</description>
+      <title>Norwegian Marine Data Centre</title>
+      <link>https://smartoceanplatform.github.io/post/nmdc/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0100</pubDate>
+      <guid>https://smartoceanplatform.github.io/post/nmdc/</guid>
+      <description>&lt;img src=&#34;https://smartoceanplatform.github.io/post/nmdc/nmdc.png&#34; alt=&#34;NMDC&#34;&gt;&lt;p&gt;A selected data set from the Austevoll test site has been made available via the Norwegian marine Data Centre.&lt;/p&gt;&#xA;&lt;p&gt;Smart Ocean Austevoll Data Set: &lt;a href=&#34;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;iframe width=&#34;850&#34; height=&#34;460&#34; style=&#34;border: 1px solid #cccccc;&#34; src=&#34;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&#34;&gt;&lt;/iframe&gt;--&gt;</description>
     </item>
-    
     <item>
-      <title>Childpages</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/childpages/</link>
+      <title>About</title>
+      <link>https://smartoceanplatform.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/childpages/</guid>
-      <description>The childpages shortcode allows you to show a list of sub-pages of the current page. For example, the Getting started page of this documentation has three child pages: Installation, Configuration and Creating content. Placing the childpages shortcode in the Getting started page will place a create a list of these sub-pages in that page.
-Usage Simply place the following shortcode on the page Copy   {{&amp;lt; childpages &amp;gt;}}    </description>
+      <guid>https://smartoceanplatform.github.io/about/</guid>
+      <description>&lt;h1 id=&#34;smart-ocean-cloud-platform&#34;&gt;Smart Ocean Cloud Platform&lt;/h1&gt;&#xA;&lt;p&gt;The Smart Ocean digital ecosystem is a system-of-systems comprised of data consumer systems and applications, data provider systems and applications, external data services, end-user applications, and the Smart Ocean Data Service and Application Platform for development and deployment of smart ocean applications.&lt;/p&gt;&#xA;&lt;p&gt;The platform is developed as part of the SFI Smart Ocean centre for research-based innovation funded by the Norwegian Research Council involving research and industry partners focussing on key challenges in developing smart ocean systems. The three main focus areas of the centre are: underwater sensor and measurement technology; underwater wireless sensor networks based on acoustic communication; and the Smart Ocean Platform for cloud-based data- and application services.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Code</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/code/</link>
+      <title>Contact</title>
+      <link>https://smartoceanplatform.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/code/</guid>
-      <description>Add code to your page with syntax highlighting and a copy button so your users can easily copy the code to their clipboard with the press of a button. The code may be entered inside the shortcode or come from an external file.
-Copy   &amp;lt;div class=&amp;#34;mydiv bg-primary shadow text-white&amp;#34;&amp;gt; &amp;lt;h1 class=&amp;#34;title&amp;#34;&amp;gt;Hi there&amp;lt;/h1&amp;gt; &amp;lt;p class=&amp;#34;lead&amp;#34;&amp;gt;I&amp;#39;m inside a code shortcode. Check out my syntax highlighting!.&amp;lt;/p&amp;gt; &amp;lt;/div&amp;gt;    Usage Simply place the following shortcode on the page</description>
+      <guid>https://smartoceanplatform.github.io/contact/</guid>
+      <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;The Smart Ocean cloud platform is developed and maintained by the &lt;a href=&#34;https://www.hvl.no/en/research/group/software-engineering/&#34;&gt;software engineering research group&lt;/a&gt; at Western Norway University of Applied Sciences as part of Smart Ocean Work Package 3 on software technology and big-data middleware.&lt;/p&gt;&#xA;&lt;img src=&#34;../hvl_logo_engelsk.png&#34; style=&#34;margin: 20px;&#34; width=&#34;400&#34; alt=&#34;Western Norway University of Applied Sciences&#34;&gt;&#xA;&lt;img src=&#34;../hvlsoftwareengineering.png&#34; style=&#34;margin: 20px;&#34; width=&#34;1000&#34; alt=&#34;HVL Softwate Engineering Research Group&#34;&gt;&#xA;&lt;p&gt;Work package leader: &lt;a href=&#34;https://www.hvl.no/en/employee/?user=Lars.Michael.Kristensen&#34;&gt;Prof. Lars Michael Kristensen&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Several industry and research partners in the SFI Smart Ocean Consortium are involved in work package 3 and the development of the cloud platform&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Collapse</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/collapse/</link>
+      <title>Publications</title>
+      <link>https://smartoceanplatform.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/collapse/</guid>
-      <description>Feel like hiding some content from your visitor in a collapsible element? The collapse shortcode does exactly that. It creates a button that shows or hides the content in the shortcode on request.
-Click me to show content  Hi there, I&#39;m the hidden content. Didn&#39;t see that one coming, huh?   Usage Simply place the following shortcode on the page Copy   {{&amp;lt; collapse title=&amp;#34;TITLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /collapse &amp;gt;}}    Parameters title The lang parameter defines the text to show in the button that toggles the collapse content.</description>
+      <guid>https://smartoceanplatform.github.io/publications/</guid>
+      <description>&lt;h1 id=&#34;papers&#34;&gt;Papers&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;K. Lima, N-T. Nguyen, R. Heldal, L.M. Kristensen, T.D. Oyetoya, P. Pelliccione, E. Knauss. A data-flow oriented software architecture for heterogeneous marine data streams. To appera in Proc. of 21st IEEE International Conference on Software Architecture, 2024.&lt;/li&gt;&#xA;&lt;li&gt;N-T. Nguyen, R. Heldal, K. Lima, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen, K.W. Høydal, P.A Reiersgaard, Y. Kvinnsland: &lt;em&gt;Engineering Challenges of Stationary Wireless Smart Ocean Observation Systems&lt;/em&gt;. IEEE Internet Things J. 10(16): 14712-14724 (2023)&lt;/li&gt;&#xA;&lt;li&gt;R. Heldal, L.M. Kristensen, K. Lima, T. D. Oyetoyan, N-T. Nguyen: &lt;em&gt;Towards a Formal and Executable Software Architecture Specification of the Smart Ocean Data Service Platform&lt;/em&gt;. PNSE@Petri Nets 2023: 110-125, 2023.&lt;/li&gt;&#xA;&lt;li&gt;K. Lima, N-T. Nguyen, R. Heldal, E. Knauss, T.D. Oyetoyan, P. Pelliccione, L.M. Kristensen: &lt;em&gt;Marine Data Sharing: Challenges, Technology Drivers and Quality Attributes&lt;/em&gt;. PROFES 2022: 124-140, 2022.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;phd-theses&#34;&gt;PhD theses&lt;/h1&gt;&#xA;&lt;h1 id=&#34;bachelor-and-master-theses&#34;&gt;Bachelor and master theses&lt;/h1&gt;</description>
     </item>
-    
-    <item>
-      <title>Doublecode</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/doublecode/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/doublecode/</guid>
-      <description>The doublecode shortcode works the same as the code shortcode, but extends the functionality by also rendering the code in the page. This is useful for showing the code of HTML elements in your page.
-Hi there
-I&#39;m inside a doublecode shortcode, that&#39;s why I look so fancy.
-   Copy   &amp;lt;div class=&amp;#34;mydiv bg-primary shadow text-white p-3 m-4 border-primary&amp;#34;&amp;gt; &amp;lt;p class=&amp;#34;h4 title&amp;#34;&amp;gt;Hi there&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;#34;lead mb-0&amp;#34;&amp;gt;I&amp;#39;m inside a doublecode shortcode, that&amp;#39;s why I look so fancy.</description>
-    </item>
-    
-    <item>
-      <title>Lead</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/lead/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/lead/</guid>
-      <description>The lead shortcode creates a paragraph with the lead class to make it stand out. Great for introductions or summaries.
-I&amp;rsquo;m a lead paragraph. That means I&amp;rsquo;m more important. And you can see that. Usage Simply place the following shortcode on the page Copy   {{&amp;lt; lead &amp;gt;}} [content] {{&amp;lt; /lead &amp;gt;}}    </description>
-    </item>
-    
-    <item>
-      <title>Panel</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/panel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/panel/</guid>
-      <description>Draw your visitor&amp;rsquo;s attention by separating information from the rest of the page using a panel. Convey meaning to this information by using colors implying danger, warning, success or info in a similar fashion as alerts.
-I&amp;#39;m important  Be sure to read me, I might have important information for you.    Usage Simply place the following shortcode on the page Copy   {{&amp;lt; panel title=&amp;#34;TITLE&amp;#34; style=&amp;#34;STYLE&amp;#34; &amp;gt;}} [content] {{&amp;lt; /panel &amp;gt;}}    Parameters Style The style parameter is directly applied to the alert as a class in the format &amp;ldquo;border-{STYLE}&amp;quot;.</description>
-    </item>
-    
-    <item>
-      <title>Table</title>
-      <link>https://smartoceanplatform.github.io/shortcodes/table/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://smartoceanplatform.github.io/shortcodes/table/</guid>
-      <description>The table shortcode allows you to wrap your tables in a table class, providing styling to the table such as borders, stripes and hover effects.
-   Tables are cool     col 3 is right-aligned $1600   col 2 is centered $12   zebra stripes are neat $1     Usage Place the following shortcode on the page Copy   {{&amp;lt; table style=&amp;#34;STYLE&amp;#34; &amp;gt;}} | Tables | are | cool | | ------------- |:-------------:| -----:| | col 3 is | right-aligned | $1600 | | col 2 is | centered | $12 | | zebra stripes | are neat | $1 | {{&amp;lt; /table &amp;gt;}}    Parameters Style The style parameter is directly applied to the table as a class in the format &amp;quot;{STYLE}&amp;quot;.</description>
-    </item>
-    
   </channel>
 </rss>
