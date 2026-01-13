@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-UK</language>
     <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 21:51:03 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 10:49:48 +0100</lastBuildDate>
     <atom:link href="https://smartoceanplatform.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data model for time series data</title>
@@ -21,21 +21,21 @@
       <link>https://smartoceanplatform.github.io/post/dtacoustic/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://smartoceanplatform.github.io/post/dtacoustic/</guid>
-      <description>&lt;img src=&#34;https://smartoceanplatform.github.io/post/dtacoustic/dtplot600.png&#34; alt=&#34;Digital Twin Plot&#34;&gt;&lt;!-- &lt;img src=dtplot.png width =&#34;600&#34; alt=&#34;Digital Twin Plot&#34; /&gt;--&gt;&#xA;&lt;p&gt;HVL and Bouvet has jointly developed a digital twin targetting the optimization of compression algorithm for acoustic underwater communication.&lt;/p&gt;&#xA;&lt;p&gt;Dashboard for the digital twin solution: &lt;a href=&#34;https://dashboard-smartocean1p.azurewebsites.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dashboard-smartocean1p.azurewebsites.net/&lt;/a&gt; (requires login)&lt;/p&gt;&#xA;&lt;img src=dtdashboard.png width =&#34;600&#34; alt=&#34;Digital Twin Dashboard&#34; /&gt;</description>
+      <description>&lt;p&gt;HVL and Bouvet has jointly developed a digital twin targetting the optimization of compression algorithm for acoustic underwater communication.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=https://smartoceanplatform.github.io/post/dtacoustic/dtplot.png height =&#34;350&#34; alt=&#34;Digital Twin Plot&#34; /&gt;\&lt;/p&gt;&#xA;&lt;p&gt;Dashboard for the digital twin solution: &lt;a href=&#34;https://dashboard-smartocean1p.azurewebsites.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://dashboard-smartocean1p.azurewebsites.net/&lt;/a&gt; (requires login)&lt;/p&gt;&#xA;&lt;img src=https://smartoceanplatform.github.io/post/dtacoustic/dtdashboard.png height =&#34;350&#34; alt=&#34;Digital Twin Dashboard&#34; /&gt;</description>
     </item>
     <item>
-      <title>Smart Ocean Data Exploration Portal</title>
+      <title>Smart Ocean Data Explorer</title>
       <link>https://smartoceanplatform.github.io/post/enlighten/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0100</pubDate>
       <guid>https://smartoceanplatform.github.io/post/enlighten/</guid>
-      <description>&lt;img src=&#34;https://smartoceanplatform.github.io/post/enlighten/enlighten.png&#34; alt=&#34;NMDC&#34;&gt;&lt;p&gt;Data set from the Austevoll test site has been made available via the Norwegian marine Data Centre.&lt;/p&gt;&#xA;&lt;p&gt;SFI Smart Ocean Data Exploration Portal: &lt;a href=&#34;https://smartocean.web.norce.cloud/#/view/default&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://smartocean.web.norce.cloud/#/view/default&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;iframe width=&#34;850&#34; height=&#34;460&#34; style=&#34;border: 1px solid #cccccc;&#34; src=&#34;https://smartocean.web.norce.cloud/#/view/default&#34;&gt;&lt;/iframe&gt;--&gt;</description>
+      <description>&lt;p&gt;Data sets from the Austevoll test site can be explored via the Smart Ocean Enlighten Data Explorer developed by NORCE.&lt;/p&gt;&#xA;&lt;p&gt;SFI Smart Ocean Data Exploration Portal: &lt;a href=&#34;https://smartocean.web.norce.cloud/#/view/default&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://smartocean.web.norce.cloud/#/view/default&lt;/a&gt;&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://smartocean.web.norce.cloud/#/view/default&#34; width=&#34;600&#34; height=&#34;450&#34; style=&#34;border:0;&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Norwegian Marine Data Centre</title>
       <link>https://smartoceanplatform.github.io/post/nmdc/</link>
       <pubDate>Sun, 24 Sep 2023 00:00:00 +0100</pubDate>
       <guid>https://smartoceanplatform.github.io/post/nmdc/</guid>
-      <description>&lt;img src=&#34;https://smartoceanplatform.github.io/post/nmdc/nmdc.png&#34; alt=&#34;NMDC&#34;&gt;&lt;p&gt;A selected data set from the Austevoll test site has been made available via the Norwegian marine Data Centre.&lt;/p&gt;&#xA;&lt;p&gt;Smart Ocean Austevoll Data Set: &lt;a href=&#34;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;iframe width=&#34;850&#34; height=&#34;460&#34; style=&#34;border: 1px solid #cccccc;&#34; src=&#34;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&#34;&gt;&lt;/iframe&gt;--&gt;</description>
+      <description>&lt;p&gt;A selected data set from the Austevoll test site has been made available via the Norwegian marine Data Centre.&lt;/p&gt;&#xA;&lt;img src=https://smartoceanplatform.github.io/post/nmdc/nmdc.png height =&#34;50&#34; alt=&#34;NMDC&#34; /&gt;&#xA;&lt;p&gt;Smart Ocean Austevoll Data Set: &lt;a href=&#34;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://metadata.nmdc.no/metadata-api/landingpage/f4ef202da4c6dc873c7f67140a430ef9&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
