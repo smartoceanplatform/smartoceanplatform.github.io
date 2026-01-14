@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en-UK">
+<head>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.f98b2c8d37c6fbd4a07de84e3499480a6f736609e8351963d02d0ef6ca7770dd0e14bbaec4424ba706ebef7775b5505288d242b468c3c282c238a895152307f4.css" media="screen" integrity="sha512-&#43;YssjTfG&#43;9SgfehONJlICm9zZgnoNRlj0C0O9sp3cN0OFLuuxEJLpwbr73d1tVBSiNJCtGjDwoLCOKiVFSMH9A==" crossorigin="anonymous">
+
+    <title>Data service consumers</title>
+
+<meta name="description" content="Data streams from the SmartOcean platform can be consumed via the:
+The REST API of the data space service The MQTT core messaging service ThingSpeak channels consumes the some example streams on the platform and has been setup for demonstration purposes:
+Virtual Sensor Hub ThingSpeak Channel AADI Austevoll Demonstrator - South Node [AADI Austevoll Demonstrator - North Node](sensor node under maintainance) W-sense sensor node 1 and sensor node 2 Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre and via the Norce Enlighten Portal.
+">
+  
+  <meta name="robots" content="noindex">
+
+
+
+<link rel="canonical" href="https://smartoceanplatform.github.io/page/consumers/">
+
+
+<link rel="alternate" hreflang="en-UK" href="https://smartoceanplatform.github.io/page/consumers/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="https://smartoceanplatform.github.io/page/consumers/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Data service consumers">
+<meta property="og:description" content="Data streams from the SmartOcean platform can be consumed via the:
+
+The REST API of the data space service
+The MQTT core messaging service
+
+ThingSpeak channels consumes the some example streams on the platform and has been setup for demonstration purposes:
+
+Virtual Sensor Hub ThingSpeak Channel
+AADI Austevoll Demonstrator - South Node
+[AADI Austevoll Demonstrator - North Node](sensor node under maintainance)
+W-sense sensor node 1 and sensor node 2
+
+Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre and via the Norce Enlighten Portal.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://smartoceanplatform.github.io/page/consumers/">
+    
+    
+      
+        <meta property="og:image" content="https://smartoceanplatform.github.io/images/sfisologo.svg">
+    
+  <meta property="article:section" content="page">
+  
+    <meta property="article:published_time" content="2025-12-19T00:00:00+00:00">
+  
+  
+    <meta property="article:modified_time" content="2026-01-14T10:30:50+01:00">
+  
+  <meta property="og:site_name" content="Smart Ocean Cloud Platform ">
+
+
+
+
+
+
+
+
+
+
+
+  <meta name="twitter:title" content="Data service consumers">
+<meta name="twitter:description" content="Data streams from the SmartOcean platform can be consumed via the:
+
+The REST API of the data space service
+The MQTT core messaging service
+
+ThingSpeak channels consumes the some example streams on the platform and has been setup for demonstration purposes:
+
+Virtual Sensor Hub ThingSpeak Channel
+AADI Austevoll Demonstrator - South Node
+[AADI Austevoll Demonstrator - North Node](sensor node under maintainance)
+W-sense sensor node 1 and sensor node 2
+
+Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre and via the Norce Enlighten Portal.">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Data service consumers",
+  "datePublished": "2025-12-19T00:00:00+00:00",
+  "dateModified": "2026-01-14T10:30:50+01:00",
+  "author": {
+    "@type": "Person",
+    "name": "Lars Michael Kristensen",
+    "url": "https:\/\/smartoceanplatform.github.io\/authors\/lars-michael-kristensen\/"
+  },
+  "mainEntityOfPage": "https://smartoceanplatform.github.io/",
+  "publisher": {
+    "@type": "Organization",
+    
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://smartoceanplatform.github.io/images/sfisologo.svg"
+    },
+    "name": "Smart Ocean Cloud Platform "
+  },
+  "wordcount" :  94 ,
+  "description": "Data streams from the SmartOcean platform can be consumed via the:\nThe REST API of the data space service The MQTT core messaging service ThingSpeak channels consumes the some example streams on the platform and has been setup for demonstration purposes:\nVirtual Sensor Hub ThingSpeak Channel AADI Austevoll Demonstrator - South Node [AADI Austevoll Demonstrator - North Node](sensor node under maintainance) W-sense sensor node 1 and sensor node 2 Data streams from the platform are also being consumed by and made available via the Norwegian Marine Data Centre and via the Norce Enlighten Portal.\n",
+  "keywords": ["Data consumers"]
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<link rel="icon" type="image/svg+xml" href="https://smartoceanplatform.github.io/favicon.svg">
+<link rel="icon" type="image/png" href="https://smartoceanplatform.github.io/favicon.png">
+
+</head>
+
+<body class="page single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="/">
+        
+        <img src="/images/sfisologo.svg" alt="logo" width="30" height="24"
+          class="d-inline-block align-text-top">
+        
+        Smart Ocean Cloud Platform 
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/about" title='SFI Smart Ocean Cloud Platform' aria-label='SFI Smart Ocean Cloud Platform'>About</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/post">Applications</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/page">Components</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/publications">Publications</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/contact/" title='Contact' aria-label='Contact'>Contact</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+        <div class="menu-social d-flex">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/smartoceanplatform/" target='_blank' title='Visit the GitHub project' aria-label='Visit the GitHub project'>
+                <svg xmlns='http://www.w3.org/2000/svg' class='feather feather-github'><use href='/images/feather/feather-sprite.svg#github'/></svg><small class="ms-2 d-md-none">GitHub</small>
+              </a>
+            </li>
+            </ul>
+        </div>
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        <nav class="header-breadcrumb my-2" aria-label="breadcrumb">
+    <div class="container">
+        <ol class="breadcrumb my-0">
+            
+            
+                
+                
+                    
+                
+                    
+                
+            
+                    <li class="breadcrumb-item"> <a href="/">Home</a> </li>
+                
+            
+                    <li class="breadcrumb-item"> <a href="/page/">Docs</a> </li>
+                
+            
+                <li class="breadcrumb-item active" aria-current="page">  Data service consumers</li>
+            
+        </ol>
+    </div>
+</nav>
+
+
+<div class="container py-3">
+  <p>Data streams from the SmartOcean platform can be consumed via the:</p>
+<ul>
+<li>The REST API of the data space service</li>
+<li>The MQTT core messaging service</li>
+</ul>
+<p>ThingSpeak channels consumes the some example streams on the platform and has been setup for demonstration purposes:</p>
+<ul>
+<li><a href="https://thingspeak.com/channels/2129424" target="_blank" rel="noopener">Virtual Sensor Hub ThingSpeak Channel</a></li>
+<li><a href="https://thingspeak.com/channels/2161887" target="_blank" rel="noopener">AADI Austevoll Demonstrator - South Node</a></li>
+<li>[AADI Austevoll Demonstrator - North Node](sensor node under maintainance)</li>
+<li><a href="https://thingspeak.com/channels/2161890" target="_blank" rel="noopener">W-sense sensor node 1 and sensor node 2</a></li>
+</ul>
+<p>Data streams from the platform are also being consumed by and made available via the <a href="https://www.nmdc.no/nmdc" target="_blank" rel="noopener">Norwegian Marine Data Centre</a> and via the Norce Enlighten Portal.</p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bg-light">
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted">Open-source <a class="text-muted text-decoration-none" href="https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE">MIT</a> Licensed.</p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+<script src="/js/bootstrap/bootstrap.bundle.min.min.7620f70f6a288d4f1a662439d8772846a2d2084a9466d8d25b3b246d986b3c96e31aae489aaa01a1961bd6f4ad9842e677b02848d0aae0a3fb74b76a522f9e80.js" integrity="sha512-diD3D2oojU8aZiQ52HcoRqLSCEqUZtjSWzskbZhrPJbjGq5ImqoBoZYb1vStmELmd7AoSNCq4KP7dLdqUi&#43;egA==" crossorigin="anonymous" defer></script>
+  
+    <script src="/js/main.min.e8d88c82c0438b527f1aca4115652ba1e2877bf805b75593b23ac0e3fe2b3fe95a467d1feef275355132ba061da6404b0d24d55afabc209b294b1db043be014d.js" integrity="sha512-6NiMgsBDi1J/GspBFWUroeKHe/gFt1WTsjrA4/4rP&#43;laRn0f7vJ1NVEyugYdpkBLDSTVWvq8IJspSx2wQ74BTQ==" crossorigin="anonymous" defer></script>
+  
+  
+
+
+
+</body>
+</html>

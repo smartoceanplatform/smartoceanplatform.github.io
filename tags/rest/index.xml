@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REST on Smart Ocean Cloud Platform </title>
+    <link>https://smartoceanplatform.github.io/tags/rest/</link>
+    <description>Recent content in REST on Smart Ocean Cloud Platform </description>
+    <generator>Hugo</generator>
+    <language>en-UK</language>
+    <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
+    <lastBuildDate>Wed, 14 Jan 2026 10:26:17 +0100</lastBuildDate>
+    <atom:link href="https://smartoceanplatform.github.io/tags/rest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data space service for historical time series data</title>
+      <link>https://smartoceanplatform.github.io/page/dataspace/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/page/dataspace/</guid>
+      <description>&lt;p&gt;The SmartOcean data space service provides uniform access to platform data services and external data sources. The data streams of the core messaging service are forwarded into time series collections for longer-term storage&lt;/p&gt;&#xA;&lt;p&gt;The data space service which currently uses the MongoDB cloud-based storage and provides an internal provider REST API for storing data and an external data consumer API for retrieving data. As the data service evolves, it will also be able to serve as a proxy service for access to external data services.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

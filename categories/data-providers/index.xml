@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Providers on Smart Ocean Cloud Platform </title>
+    <link>https://smartoceanplatform.github.io/categories/data-providers/</link>
+    <description>Recent content in Data Providers on Smart Ocean Cloud Platform </description>
+    <generator>Hugo</generator>
+    <language>en-UK</language>
+    <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
+    <lastBuildDate>Wed, 14 Jan 2026 10:35:55 +0100</lastBuildDate>
+    <atom:link href="https://smartoceanplatform.github.io/categories/data-providers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data providers</title>
+      <link>https://smartoceanplatform.github.io/page/providers/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/page/providers/</guid>
+      <description>&lt;p&gt;Data providers are systems and applications that actively deliver marine data-sets and data streams to the Smart Ocean platform.&lt;/p&gt;&#xA;&lt;p&gt;Data is currently being provided to the platform from the &lt;a href=&#34;https://www.hi.no/en/hi/laboratories/austevoll-research-station&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Austevoll Research Station&lt;/a&gt; of the &lt;a href=&#34;https://www.hi.no/hi/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institute of Marine Research&lt;/a&gt; where the SmartOcean Pilot Demonstrator 1 has been deployed.&lt;/p&gt;&#xA;&lt;p&gt;The pilot demonstrator encompass underwater sensor hubs and nodes with underwater wireless communication from&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.aanderaa.com/profiling-current-meter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Aanderaa Data Instruments&lt;/a&gt; (AADI/Xylem)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://wsense.it&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;W-sense&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Data is being provided to the platform via the ingestion messaging service. The data ingestion service does not provided any constraints on the format in which data is being provided in order to support integration of a wide range of data sources.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
