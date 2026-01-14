@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-UK</language>
     <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
-    <lastBuildDate>Tue, 13 Jan 2026 10:59:45 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 10:27:35 +0100</lastBuildDate>
     <atom:link href="https://smartoceanplatform.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data model for time series data</title>
@@ -15,6 +15,20 @@
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://smartoceanplatform.github.io/page/datamodel/</guid>
       <description>&lt;p&gt;Interoperability is a central aspect of the SmartOcean platform which provided data provision and consumption via standardised REST and MQTT cloud APIs, and data and meta-data formats for service integration.&lt;/p&gt;&#xA;&lt;p&gt;Work is ongoing on standardising a data- and meta-data format for the SmartOcean platform to be used both internally in the platform and for exposing data. The figure below shows the current basic data model being used by the SmartOcean platform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Data space service for historical time series data</title>
+      <link>https://smartoceanplatform.github.io/page/dataspace/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/page/dataspace/</guid>
+      <description>&lt;p&gt;The SmartOcean data space service provides uniform access to platform data services and external data sources. The data streams of the core messaging service are forwarded into time series collections for longer-term storage&lt;/p&gt;&#xA;&lt;p&gt;The data space service which currently uses the MongoDB cloud-based storage and provides an internal provider REST API for storing data and an external data consumer API for retrieving data. As the data service evolves, it will also be able to serve as a proxy service for access to external data services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Messaging service for real-time data streams</title>
+      <link>https://smartoceanplatform.github.io/page/messaging/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/page/messaging/</guid>
+      <description>&lt;p&gt;The messaging service of the Smart Ocean platform supports publishing data and subscribing to real-time data streams&lt;/p&gt;&#xA;&lt;p&gt;The messaging service is based on the publish-subscribe paradigm and the MQTT protocol. In this paradigm, data providers publish data topics while data consumers subscribe to topic in order to receive data published on the topic.&lt;/p&gt;&#xA;&lt;p&gt;The messaging service is comprised of two &lt;a href=&#34;https://console.hivemq.cloud&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HiveMQ MQTT&lt;/a&gt; messaging clusters&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;An Ingestion Messaging Service for delivering data to the platform&lt;/li&gt;&#xA;&lt;li&gt;A Core Messaging Service for data transformation, forwarding and consumption&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The data ingestion service receives data in formats determined by the data sources and a transformation to the SmartOcean data format is performed prior to publishing the data on the core messaging service for further processing.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

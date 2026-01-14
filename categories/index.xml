@@ -7,13 +7,48 @@
     <generator>Hugo</generator>
     <language>en-UK</language>
     <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
-    <lastBuildDate>Tue, 13 Jan 2026 10:59:45 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 10:35:55 +0100</lastBuildDate>
     <atom:link href="https://smartoceanplatform.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Consumers</title>
+      <link>https://smartoceanplatform.github.io/categories/data-consumers/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/categories/data-consumers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Providers</title>
+      <link>https://smartoceanplatform.github.io/categories/data-providers/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/categories/data-providers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Space Service</title>
+      <link>https://smartoceanplatform.github.io/categories/data-space-service/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/categories/data-space-service/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edge Integration</title>
+      <link>https://smartoceanplatform.github.io/categories/edge-integration/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/categories/edge-integration/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Interoperability</title>
       <link>https://smartoceanplatform.github.io/categories/interoperability/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://smartoceanplatform.github.io/categories/interoperability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Messaging Service</title>
+      <link>https://smartoceanplatform.github.io/categories/messaging-service/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://smartoceanplatform.github.io/categories/messaging-service/</guid>
       <description></description>
     </item>
   </channel>
