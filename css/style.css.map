@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/larskristensen/smartocean/sopsite2/site",
+	"sourceRoot": "/Users/larsmkristensen/smartocean/sopsite2/site",
 	"sources": [
 		"assets/sass/main.scss",
 		"hugo-bootstrap-theme/assets/sass/bootstrap/_functions.scss",
